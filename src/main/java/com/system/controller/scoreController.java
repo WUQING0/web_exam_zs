@@ -88,6 +88,7 @@ public class scoreController {
     @RequestMapping("/delall")
     public String delall(Model model) throws Exception {
         delallService.delall();
+        delallService.del();
         return "teacher/index.jsp";
     }
 

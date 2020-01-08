@@ -15,4 +15,8 @@ public class delallServiceImpl implements delallService {
     public void delall() throws Exception {
         delallMapper.delall();
     }
+    @Override
+    public void del() throws Exception {
+        delallMapper.del();
+    }
 }

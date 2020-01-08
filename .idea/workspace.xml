@@ -6,9 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d07ce387-55b0-46fc-a511-b78cb245529b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d07ce387-55b0-46fc-a511-b78cb245529b" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -417,7 +415,7 @@
       <workItem from="1578308300729" duration="4453000" />
       <workItem from="1578359418272" duration="31598000" />
       <workItem from="1578446387868" duration="14194000" />
-      <workItem from="1578461355362" duration="1368000" />
+      <workItem from="1578461355362" duration="3398000" />
     </task>
     <task id="LOCAL-00001" summary="ssm的在线考试与练习平台">
       <created>1578461978748</created>
@@ -426,11 +424,18 @@
       <option name="project" value="LOCAL" />
       <updated>1578461978748</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="ssm的在线考试与练习平台">
+      <created>1578462922395</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578462922395</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="172186000" />
+    <option name="totallyTimeSpent" value="174216000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -465,7 +470,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50066936" side_tool="true" weight="0.07887324" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32957748" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="13" visible="true" weight="0.32957748" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.45633802" />
       <window_info anchor="bottom" id="Application Servers" order="14" weight="0.32957748" />
       <window_info anchor="bottom" id="Messages" order="15" weight="0.36478874" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
