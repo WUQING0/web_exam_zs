@@ -1,0 +1,1806 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="web_exam_zs:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d07ce387-55b0-46fc-a511-b78cb245529b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/web_exam_zs_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/web_exam_zs_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/controller/CourseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/controller/LianxiTestaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/controller/TeacherController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/controller/examController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/controller/examDatiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/controller/examTestaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/controller/lianxiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/controller/lianxiDatiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/controller/regController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/controller/scoreController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/controller/tchCheckController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/mapper/AdminMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/mapper/AdminMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/mapper/CourseMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/mapper/CourseMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/mapper/DelallMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/mapper/DelallMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/mapper/ExamDatiMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/mapper/ExamDatiMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/mapper/ExamTestAMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/mapper/ExamTestAMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/mapper/ExamTestMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/mapper/ExamTestMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/mapper/ExamXuanzeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/mapper/ExamXuanzeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/mapper/LianxiDatiMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/mapper/LianxiDatiMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/mapper/LianxiTestAMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/mapper/LianxiTestAMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/mapper/LianxiTestMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/mapper/LianxiTestMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/mapper/LianxiXuanzeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/mapper/LianxiXuanzeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/mapper/StudentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/mapper/StudentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/mapper/TeacherMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/mapper/TeacherMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/po/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/po/AdminCustom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/po/AdminExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/po/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/po/CourseCustom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/po/CourseExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/po/ExamDati.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/po/ExamDatiCustom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/po/ExamDatiExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/po/ExamTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/po/ExamTestA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/po/ExamTestACustom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/po/ExamTestAExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/po/ExamTestCustom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/po/ExamTestExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/po/ExamXuanze.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/po/ExamXuanzeCustom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/po/ExamXuanzeExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/po/LianxiDati.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/po/LianxiDatiCustom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/po/LianxiDatiExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/po/LianxiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/po/LianxiTestA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/po/LianxiTestACustom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/po/LianxiTestAExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/po/LianxiTestCustom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/po/LianxiTestExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/po/LianxiXuanze.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/po/LianxiXuanzeCustom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/po/LianxiXuanzeExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/po/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/po/StudentCustom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/po/StudentExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/po/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/po/TeacherCustom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/po/TeacherExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/service/CourseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/service/ExamDatiService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/service/ExamXuanzeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/service/Exam_test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/service/Exam_test_a.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/service/LianxiDatiService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/service/LianxiXuanzeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/service/Lianxi_test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/service/Lianxi_test_a.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/service/TeacherService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/service/delallService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/service/impl/CourseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/service/impl/ExamDatiServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/service/impl/ExamXuanzeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/service/impl/Exam_testImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/service/impl/LianxiDatiServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/service/impl/LianxiXuanzeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/service/impl/Lianxi_testImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/service/impl/StudentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/service/impl/TeacherServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/service/impl/delallServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/service/impl/exam_test_aImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/service/impl/lianxi_test_aImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/service/impl/tchCheckImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/system/service/tchCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis/mybatis.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mysql.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring/applicationContext-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring/applicationContext-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring/applicationContext-trsaction.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/spring/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/data/flot-data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/data/morris-data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/css/sb-admin-2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/css/sb-admin-2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/js/sb-admin-2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/dist/js/sb-admin-2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/sb-admin-2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/less/sb-admin-2.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/addCourse.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/addStudent.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/addTeacher.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/addexam.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/addexamdati.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/addlianxi.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/addlianxidati.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/blank.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/buttons.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/editCourse.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/editStudent.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/editTeacher.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/editexam.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/editexamdati.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/editlianxi.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/editlianxidati.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/exam_exam.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/flot.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/lianxi_exam.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/morris.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/morriss.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pages/panels-wells.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/reg.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/showError.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/student/exam_exam.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/student/exam_exam_a.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/student/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/student/lianxi_exam.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/student/lianxi_exam_a.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/student/score.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/student/scores.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/teacher/addCourse.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/teacher/addStudent.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/teacher/addTeacher.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/teacher/addexam.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/teacher/addexamdati.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/teacher/addlianxi.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/teacher/addlianxidati.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/teacher/blank.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/teacher/buttons.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/teacher/check.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/teacher/editCourse.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/teacher/editStudent.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/teacher/editTeacher.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/teacher/editexam.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/teacher/editexamdati.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/teacher/editlianxi.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/teacher/editlianxidati.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/teacher/exam_exam.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/teacher/flot.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/teacher/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/teacher/lianxi_exam.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/teacher/morris.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/teacher/morriss.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/teacher/panels-wells.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap-social/bootstrap-social.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap-social/bootstrap-social.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap-social/bootstrap-social.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/datatables-plugins/dataTables.bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/datatables-plugins/dataTables.bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/datatables-plugins/dataTables.bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/datatables-plugins/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/datatables-responsive/dataTables.responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/datatables-responsive/dataTables.responsive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/datatables-responsive/dataTables.responsive.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/datatables/css/dataTables.bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/datatables/css/dataTables.bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/datatables/css/dataTables.bootstrap4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/datatables/css/dataTables.bootstrap4.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/datatables/css/dataTables.foundation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/datatables/css/dataTables.foundation.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/datatables/css/dataTables.jqueryui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/datatables/css/dataTables.jqueryui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/datatables/css/dataTables.material.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/datatables/css/dataTables.material.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/datatables/css/dataTables.semanticui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/datatables/css/dataTables.semanticui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/datatables/css/dataTables.uikit.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/datatables/css/dataTables.uikit.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/datatables/css/jquery.dataTables.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/datatables/css/jquery.dataTables.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/datatables/css/jquery.dataTables_themeroller.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/datatables/images/Sorting icons.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/datatables/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/datatables/images/sort_asc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/datatables/images/sort_asc_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/datatables/images/sort_both.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/datatables/images/sort_desc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/datatables/images/sort_desc_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/datatables/js/dataTables.bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/datatables/js/dataTables.bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/datatables/js/dataTables.bootstrap4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/datatables/js/dataTables.bootstrap4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/datatables/js/dataTables.foundation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/datatables/js/dataTables.foundation.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/datatables/js/dataTables.jqueryui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/datatables/js/dataTables.jqueryui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/datatables/js/dataTables.material.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/datatables/js/dataTables.material.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/datatables/js/dataTables.semanticui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/datatables/js/dataTables.semanticui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/datatables/js/dataTables.uikit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/datatables/js/dataTables.uikit.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/datatables/js/jquery.dataTables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/datatables/js/jquery.dataTables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/datatables/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/flot-tooltip/jquery.flot.tooltip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/flot-tooltip/jquery.flot.tooltip.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/flot-tooltip/jquery.flot.tooltip.source.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/flot/excanvas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/flot/excanvas.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/flot/jquery.colorhelpers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/flot/jquery.flot.canvas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/flot/jquery.flot.categories.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/flot/jquery.flot.crosshair.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/flot/jquery.flot.errorbars.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/flot/jquery.flot.fillbetween.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/flot/jquery.flot.image.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/flot/jquery.flot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/flot/jquery.flot.navigate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/flot/jquery.flot.pie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/flot/jquery.flot.resize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/flot/jquery.flot.selection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/flot/jquery.flot.stack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/flot/jquery.flot.symbol.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/flot/jquery.flot.threshold.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/flot/jquery.flot.time.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/flot/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/font-awesome/css/font-awesome.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/font-awesome/less/animated.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/font-awesome/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/font-awesome/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/font-awesome/less/extras.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/font-awesome/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/font-awesome/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/font-awesome/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/font-awesome/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/font-awesome/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/font-awesome/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/font-awesome/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/font-awesome/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/font-awesome/less/screen-reader.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/font-awesome/less/spinning.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/font-awesome/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/font-awesome/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/font-awesome/scss/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/font-awesome/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/font-awesome/scss/_extras.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/font-awesome/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/font-awesome/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/font-awesome/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/font-awesome/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/font-awesome/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/font-awesome/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/font-awesome/scss/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/font-awesome/scss/_spinning.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/font-awesome/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/font-awesome/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/font-awesome/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/metisMenu/metisMenu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/metisMenu/metisMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/metisMenu/metisMenu.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/metisMenu/metisMenu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/morrisjs/morris.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/morrisjs/morris.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/morrisjs/morris.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/raphael/raphael.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/vendor/raphael/raphael.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sql/exam.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/web_exam_zs.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/controller/CourseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/controller/LianxiTestaController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/controller/LoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/controller/StudentController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/controller/TeacherController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/controller/examController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/controller/examDatiController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/controller/examTestaController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/controller/lianxiController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/controller/lianxiDatiController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/controller/regController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/controller/scoreController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/controller/tchCheckController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/mapper/AdminMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/mapper/AdminMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/mapper/CourseMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/mapper/CourseMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/mapper/DelallMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/mapper/DelallMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/mapper/ExamDatiMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/mapper/ExamDatiMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/mapper/ExamTestAMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/mapper/ExamTestAMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/mapper/ExamTestMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/mapper/ExamTestMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/mapper/ExamXuanzeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/mapper/ExamXuanzeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/mapper/LianxiDatiMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/mapper/LianxiDatiMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/mapper/LianxiTestAMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/mapper/LianxiTestAMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/mapper/LianxiTestMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/mapper/LianxiTestMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/mapper/LianxiXuanzeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/mapper/LianxiXuanzeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/mapper/StudentMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/mapper/StudentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/mapper/TeacherMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/mapper/TeacherMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/Admin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/AdminCustom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/AdminExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/AdminExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/AdminExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/AdminExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/Course.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/CourseCustom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/CourseExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/CourseExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/CourseExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/CourseExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/ExamDati.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/ExamDatiCustom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/ExamDatiExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/ExamDatiExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/ExamDatiExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/ExamDatiExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/ExamTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/ExamTestA.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/ExamTestACustom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/ExamTestAExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/ExamTestAExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/ExamTestAExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/ExamTestAExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/ExamTestCustom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/ExamTestExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/ExamTestExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/ExamTestExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/ExamTestExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/ExamXuanze.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/ExamXuanzeCustom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/ExamXuanzeExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/ExamXuanzeExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/ExamXuanzeExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/ExamXuanzeExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/LianxiDati.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/LianxiDatiCustom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/LianxiDatiExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/LianxiDatiExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/LianxiDatiExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/LianxiDatiExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/LianxiTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/LianxiTestA.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/LianxiTestACustom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/LianxiTestAExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/LianxiTestAExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/LianxiTestAExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/LianxiTestAExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/LianxiTestCustom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/LianxiTestExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/LianxiTestExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/LianxiTestExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/LianxiTestExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/LianxiXuanze.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/LianxiXuanzeCustom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/LianxiXuanzeExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/LianxiXuanzeExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/LianxiXuanzeExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/LianxiXuanzeExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/StudentCustom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/StudentExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/StudentExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/StudentExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/StudentExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/Teacher.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/TeacherCustom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/TeacherExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/TeacherExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/TeacherExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/po/TeacherExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/service/CourseService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/service/ExamDatiService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/service/ExamXuanzeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/service/Exam_test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/service/Exam_test_a.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/service/LianxiDatiService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/service/LianxiXuanzeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/service/Lianxi_test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/service/Lianxi_test_a.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/service/StudentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/service/TeacherService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/service/delallService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/service/impl/CourseServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/service/impl/ExamDatiServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/service/impl/ExamXuanzeServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/service/impl/Exam_testImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/service/impl/LianxiDatiServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/service/impl/LianxiXuanzeServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/service/impl/Lianxi_testImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/service/impl/StudentServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/service/impl/TeacherServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/service/impl/delallServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/service/impl/exam_test_aImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/service/impl/lianxi_test_aImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/service/impl/tchCheckImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/system/service/tchCheck.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mybatis/mybatis.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/mysql.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/spring/applicationContext-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/spring/applicationContext-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/spring/applicationContext-trsaction.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/spring/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/META-INF/web_exam_zs.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/controller/CourseController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/controller/LianxiTestaController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/controller/LoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/controller/StudentController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/controller/TeacherController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/controller/examController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/controller/examDatiController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/controller/examTestaController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/controller/lianxiController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/controller/lianxiDatiController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/controller/regController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/controller/scoreController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/controller/tchCheckController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/mapper/AdminMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/mapper/AdminMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/mapper/CourseMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/mapper/CourseMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/mapper/DelallMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/mapper/DelallMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/mapper/ExamDatiMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/mapper/ExamDatiMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/mapper/ExamTestAMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/mapper/ExamTestAMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/mapper/ExamTestMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/mapper/ExamTestMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/mapper/ExamXuanzeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/mapper/ExamXuanzeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/mapper/LianxiDatiMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/mapper/LianxiDatiMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/mapper/LianxiTestAMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/mapper/LianxiTestAMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/mapper/LianxiTestMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/mapper/LianxiTestMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/mapper/LianxiXuanzeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/mapper/LianxiXuanzeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/mapper/StudentMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/mapper/StudentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/mapper/TeacherMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/mapper/TeacherMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/Admin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/AdminCustom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/AdminExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/AdminExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/AdminExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/AdminExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/Course.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/CourseCustom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/CourseExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/CourseExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/CourseExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/CourseExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/ExamDati.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/ExamDatiCustom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/ExamDatiExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/ExamDatiExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/ExamDatiExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/ExamDatiExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/ExamTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/ExamTestA.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/ExamTestACustom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/ExamTestAExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/ExamTestAExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/ExamTestAExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/ExamTestAExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/ExamTestCustom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/ExamTestExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/ExamTestExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/ExamTestExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/ExamTestExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/ExamXuanze.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/ExamXuanzeCustom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/ExamXuanzeExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/ExamXuanzeExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/ExamXuanzeExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/ExamXuanzeExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/LianxiDati.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/LianxiDatiCustom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/LianxiDatiExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/LianxiDatiExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/LianxiDatiExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/LianxiDatiExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/LianxiTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/LianxiTestA.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/LianxiTestACustom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/LianxiTestAExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/LianxiTestAExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/LianxiTestAExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/LianxiTestAExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/LianxiTestCustom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/LianxiTestExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/LianxiTestExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/LianxiTestExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/LianxiTestExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/LianxiXuanze.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/LianxiXuanzeCustom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/LianxiXuanzeExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/LianxiXuanzeExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/LianxiXuanzeExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/LianxiXuanzeExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/StudentCustom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/StudentExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/StudentExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/StudentExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/StudentExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/Teacher.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/TeacherCustom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/TeacherExample$Criteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/TeacherExample$Criterion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/TeacherExample$GeneratedCriteria.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/po/TeacherExample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/service/CourseService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/service/ExamDatiService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/service/ExamXuanzeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/service/Exam_test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/service/Exam_test_a.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/service/LianxiDatiService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/service/LianxiXuanzeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/service/Lianxi_test.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/service/Lianxi_test_a.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/service/StudentService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/service/TeacherService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/service/delallService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/service/impl/CourseServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/service/impl/ExamDatiServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/service/impl/ExamXuanzeServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/service/impl/Exam_testImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/service/impl/LianxiDatiServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/service/impl/LianxiXuanzeServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/service/impl/Lianxi_testImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/service/impl/StudentServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/service/impl/TeacherServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/service/impl/delallServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/service/impl/exam_test_aImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/service/impl/lianxi_test_aImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/service/impl/tchCheckImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/com/system/service/tchCheck.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/mybatis/mybatis.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/mysql.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/spring/applicationContext-dao.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/spring/applicationContext-service.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/spring/applicationContext-trsaction.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/spring/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/classes/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/lib/annotations-java5-18.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/lib/aspectjweaver-1.8.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/lib/c3p0-0.9.5.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/lib/classmate-1.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/lib/commons-beanutils-1.8.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/lib/hibernate-validator-5.4.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/lib/jboss-logging-3.3.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/lib/mchange-commons-java-0.2.11.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/lib/mybatis-3.4.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/lib/mybatis-generator-core-1.3.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/lib/mybatis-spring-1.3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/lib/mysql-connector-java-5.1.41.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/lib/shiro-core-1.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/lib/shiro-spring-1.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/lib/shiro-web-1.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/lib/slf4j-api-1.6.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/lib/spring-aop-4.3.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/lib/spring-beans-4.3.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/lib/spring-context-4.3.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/lib/spring-core-4.3.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/lib/spring-expression-4.3.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/lib/spring-jdbc-4.2.5.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/lib/spring-tx-4.3.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/lib/spring-web-4.3.8.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/lib/spring-webmvc-4.3.7.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/lib/validation-api-1.1.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/data/flot-data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/data/morris-data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/dist/css/sb-admin-2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/dist/css/sb-admin-2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/dist/js/sb-admin-2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/dist/js/sb-admin-2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/images/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/js/sb-admin-2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/js/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/less/sb-admin-2.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/pages/addCourse.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/pages/addStudent.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/pages/addTeacher.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/pages/addexam.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/pages/addexamdati.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/pages/addlianxi.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/pages/addlianxidati.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/pages/blank.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/pages/buttons.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/pages/editCourse.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/pages/editStudent.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/pages/editTeacher.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/pages/editexam.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/pages/editexamdati.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/pages/editlianxi.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/pages/editlianxidati.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/pages/exam_exam.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/pages/flot.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/pages/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/pages/lianxi_exam.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/pages/morris.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/pages/morriss.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/pages/panels-wells.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/reg.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/showError.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/student/exam_exam.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/student/exam_exam_a.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/student/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/student/lianxi_exam.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/student/lianxi_exam_a.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/student/score.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/student/scores.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/teacher/addCourse.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/teacher/addStudent.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/teacher/addTeacher.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/teacher/addexam.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/teacher/addexamdati.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/teacher/addlianxi.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/teacher/addlianxidati.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/teacher/blank.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/teacher/buttons.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/teacher/check.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/teacher/editCourse.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/teacher/editStudent.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/teacher/editTeacher.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/teacher/editexam.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/teacher/editexamdati.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/teacher/editlianxi.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/teacher/editlianxidati.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/teacher/exam_exam.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/teacher/flot.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/teacher/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/teacher/lianxi_exam.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/teacher/morris.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/teacher/morriss.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/teacher/panels-wells.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/bootstrap-social/bootstrap-social.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/bootstrap-social/bootstrap-social.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/bootstrap-social/bootstrap-social.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/datatables-plugins/dataTables.bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/datatables-plugins/dataTables.bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/datatables-plugins/dataTables.bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/datatables-plugins/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/datatables-responsive/dataTables.responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/datatables-responsive/dataTables.responsive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/datatables-responsive/dataTables.responsive.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/datatables/css/dataTables.bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/datatables/css/dataTables.bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/datatables/css/dataTables.bootstrap4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/datatables/css/dataTables.bootstrap4.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/datatables/css/dataTables.foundation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/datatables/css/dataTables.foundation.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/datatables/css/dataTables.jqueryui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/datatables/css/dataTables.jqueryui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/datatables/css/dataTables.material.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/datatables/css/dataTables.material.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/datatables/css/dataTables.semanticui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/datatables/css/dataTables.semanticui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/datatables/css/dataTables.uikit.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/datatables/css/dataTables.uikit.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/datatables/css/jquery.dataTables.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/datatables/css/jquery.dataTables.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/datatables/css/jquery.dataTables_themeroller.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/datatables/images/Sorting icons.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/datatables/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/datatables/images/sort_asc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/datatables/images/sort_asc_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/datatables/images/sort_both.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/datatables/images/sort_desc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/datatables/images/sort_desc_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/datatables/js/dataTables.bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/datatables/js/dataTables.bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/datatables/js/dataTables.bootstrap4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/datatables/js/dataTables.bootstrap4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/datatables/js/dataTables.foundation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/datatables/js/dataTables.foundation.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/datatables/js/dataTables.jqueryui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/datatables/js/dataTables.jqueryui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/datatables/js/dataTables.material.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/datatables/js/dataTables.material.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/datatables/js/dataTables.semanticui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/datatables/js/dataTables.semanticui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/datatables/js/dataTables.uikit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/datatables/js/dataTables.uikit.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/datatables/js/jquery.dataTables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/datatables/js/jquery.dataTables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/datatables/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/flot-tooltip/jquery.flot.tooltip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/flot-tooltip/jquery.flot.tooltip.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/flot-tooltip/jquery.flot.tooltip.source.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/flot/excanvas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/flot/excanvas.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/flot/jquery.colorhelpers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/flot/jquery.flot.canvas.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/flot/jquery.flot.categories.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/flot/jquery.flot.crosshair.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/flot/jquery.flot.errorbars.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/flot/jquery.flot.fillbetween.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/flot/jquery.flot.image.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/flot/jquery.flot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/flot/jquery.flot.navigate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/flot/jquery.flot.pie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/flot/jquery.flot.resize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/flot/jquery.flot.selection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/flot/jquery.flot.stack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/flot/jquery.flot.symbol.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/flot/jquery.flot.threshold.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/flot/jquery.flot.time.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/flot/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/font-awesome/css/font-awesome.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/font-awesome/less/animated.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/font-awesome/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/font-awesome/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/font-awesome/less/extras.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/font-awesome/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/font-awesome/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/font-awesome/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/font-awesome/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/font-awesome/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/font-awesome/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/font-awesome/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/font-awesome/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/font-awesome/less/screen-reader.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/font-awesome/less/spinning.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/font-awesome/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/font-awesome/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/font-awesome/scss/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/font-awesome/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/font-awesome/scss/_extras.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/font-awesome/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/font-awesome/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/font-awesome/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/font-awesome/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/font-awesome/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/font-awesome/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/font-awesome/scss/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/font-awesome/scss/_spinning.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/font-awesome/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/font-awesome/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/font-awesome/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/metisMenu/metisMenu.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/metisMenu/metisMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/metisMenu/metisMenu.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/metisMenu/metisMenu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/morrisjs/morris.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/morrisjs/morris.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/morrisjs/morris.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/raphael/raphael.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/web_exam_zs/vendor/raphael/raphael.min.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>namespace</find>
+      <find>com.system.po.ourseExample</find>
+      <find>jstl</find>
+      <find>html</find>
+      <find>body</find>
+      <find>js</find>
+      <find>com.system.po</find>
+      <find>ssm.</find>
+      <find>com.system.po.ExamXuanzeMapper</find>
+      <find>Mapper</find>
+      <find>ssm.po</find>
+      <find>insert</find>
+      <find>lianxi_name</find>
+      <find>andStuIdEqualTo</find>
+      <find>selectByPrimaryKey</find>
+      <find>ssm</find>
+      <find>select</find>
+      <find>教师端</find>
+      <find>管理端</find>
+      <find>selectByExample</find>
+      <find>distinct</find>
+      <find>1</find>
+      <find>class=&quot;form-control&quot;</find>
+      <find>login</find>
+      <find>login.html</find>
+      <find>exam_tes</find>
+      <find>id</find>
+      <find>session</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/morris.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/morriss.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/pages/panels-wells.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/student/exam_exam.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/student/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/student/lianxi_exam.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/student/score.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/student/scores.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/teacher/addCourse.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/teacher/addexam.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/teacher/addexamdati.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/teacher/addlianxi.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/teacher/addlianxidati.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/teacher/addStudent.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/teacher/addTeacher.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/teacher/blank.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/teacher/buttons.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/teacher/check.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/teacher/editCourse.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/teacher/editexam.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/teacher/editexamdati.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/teacher/editlianxi.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/teacher/editlianxidati.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/teacher/editStudent.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/teacher/editTeacher.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/teacher/exam_exam.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/teacher/flot.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/teacher/lianxi_exam.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/teacher/morris.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/teacher/morriss.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/teacher/panels-wells.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/system/service/delallService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/system/mapper/delallMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/system/mapper/delallMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/system/service/impl/delallServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/teacher/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/student/lianxi_exam_a.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/student/exam_exam_a.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/showError.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/system/controller/scoreController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/system/controller/CourseController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/system/controller/examController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/system/controller/examTestaController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/system/controller/lianxiController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/system/controller/lianxiDatiController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/system/controller/LianxiTestaController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/system/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/system/controller/regController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/system/controller/StudentController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/system/controller/tchCheckController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/system/controller/TeacherController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/maven/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="web_exam_zs Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="web_exam_zs Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="vmOptions" value="-DarchetypeCatalog=local" />
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="90" />
+    <option name="width" value="1750" />
+    <option name="height" value="1035" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="web_exam_zs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web_exam_zs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web_exam_zs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web_exam_zs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web_exam_zs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web_exam_zs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web_exam_zs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web_exam_zs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ssm框架学习笔记总结\web_exam_zs\src\sql" />
+      <recent name="D:\ssm框架学习笔记总结\web_exam_zs\src\main\java\com\system\mapper" />
+      <recent name="D:\ssm框架学习笔记总结\web_exam_zs\src\main\webapp\js" />
+      <recent name="D:\ssm框架学习笔记总结\web_exam_zs\src\main\webapp" />
+      <recent name="D:\ssm框架学习笔记总结\web_exam_zs\src\main\webapp\teacher" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.system.service.impl" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ssm框架学习笔记总结\web_exam_zs\src\main\webapp" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.system.po" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.system.po" />
+      <recent name="com.system.service" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.221">
+    <configuration name="Tomcat 9.0.221" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.221" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="web_exam_zs:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_web_exam_zs_2" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="55336" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="web_exam_zs:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="addStudent.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.221" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/pages/addStudent.jsp" />
+      <deployment>
+        <artifact name="web_exam_zs:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/web_exam_zs_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="addStudent_jsp_web_exam_zs" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="web_exam_zs:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Tomcat Server.addStudent.jsp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d07ce387-55b0-46fc-a511-b78cb245529b" name="Default Changelist" comment="" />
+      <created>1577584662698</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577584662698</updated>
+      <workItem from="1577584665964" duration="8531000" />
+      <workItem from="1577605757147" duration="9035000" />
+      <workItem from="1577672123211" duration="9414000" />
+      <workItem from="1577684544851" duration="33000" />
+      <workItem from="1577755987743" duration="14332000" />
+      <workItem from="1577774032821" duration="3407000" />
+      <workItem from="1577833370707" duration="3374000" />
+      <workItem from="1577836804355" duration="2000" />
+      <workItem from="1577928430083" duration="12254000" />
+      <workItem from="1578025007288" duration="7983000" />
+      <workItem from="1578039392577" duration="352000" />
+      <workItem from="1578102437020" duration="40000" />
+      <workItem from="1578103872944" duration="568000" />
+      <workItem from="1578104676754" duration="268000" />
+      <workItem from="1578104979369" duration="11294000" />
+      <workItem from="1578116475778" duration="56000" />
+      <workItem from="1578186080992" duration="9676000" />
+      <workItem from="1578196235876" duration="206000" />
+      <workItem from="1578207064903" duration="2098000" />
+      <workItem from="1578278147688" duration="7706000" />
+      <workItem from="1578285993489" duration="19944000" />
+      <workItem from="1578308300729" duration="4453000" />
+      <workItem from="1578359418272" duration="31598000" />
+      <workItem from="1578446387868" duration="14194000" />
+      <workItem from="1578461355362" duration="213000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="170818000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25301206" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32957748" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49933067" weight="0.3084507" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.118309855" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32957748" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32957748" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32957748" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50066936" side_tool="true" weight="0.07887324" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32957748" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Application Servers" order="14" weight="0.32957748" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.36478874" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3299866" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966533" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32957748" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49933067" visible="true" weight="0.07464789" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.34225354" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32957748" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32957748" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32957748" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50066936" side_tool="true" weight="0.07887324" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32957748" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Application Servers" order="14" weight="0.32957748" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.36478874" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.3299866" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>list1.get(j).equals(list2.get(j))</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>list1.get(j).equals(list2.get(j)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/teacher/addlianxidati.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="89" column="77" selection-start-line="89" selection-start-column="77" selection-end-line="89" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/teacher/addStudent.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="89" column="77" selection-start-line="89" selection-start-column="77" selection-end-line="89" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/teacher/addTeacher.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="89" column="77" selection-start-line="89" selection-start-column="77" selection-end-line="89" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/teacher/blank.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="100" column="81" selection-start-line="100" selection-start-column="81" selection-end-line="100" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/teacher/buttons.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="99" column="81" selection-start-line="99" selection-start-column="81" selection-end-line="99" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/teacher/check.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="100" column="77" selection-start-line="100" selection-start-column="77" selection-end-line="100" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/teacher/editCourse.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="89" column="77" selection-start-line="89" selection-start-column="77" selection-end-line="89" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/teacher/editexam.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="89" column="77" selection-start-line="89" selection-start-column="77" selection-end-line="89" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/teacher/editexamdati.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="89" column="77" selection-start-line="89" selection-start-column="77" selection-end-line="89" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/teacher/editlianxi.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="89" column="77" selection-start-line="89" selection-start-column="77" selection-end-line="89" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/teacher/editlianxidati.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="89" column="77" selection-start-line="89" selection-start-column="77" selection-end-line="89" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/teacher/editStudent.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="89" column="77" selection-start-line="89" selection-start-column="77" selection-end-line="89" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/teacher/editTeacher.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="88" column="77" selection-start-line="88" selection-start-column="77" selection-end-line="88" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/teacher/exam_exam.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="100" column="77" selection-start-line="100" selection-start-column="77" selection-end-line="100" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/teacher/flot.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="100" column="77" selection-start-line="100" selection-start-column="77" selection-end-line="100" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/teacher/lianxi_exam.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="100" column="77" selection-start-line="100" selection-start-column="77" selection-end-line="100" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/teacher/morris.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="100" column="81" selection-start-line="100" selection-start-column="81" selection-end-line="100" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/teacher/morriss.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="100" column="77" selection-start-line="100" selection-start-column="77" selection-end-line="100" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/teacher/panels-wells.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="100" column="81" selection-start-line="100" selection-start-column="81" selection-end-line="100" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/system/service/ExamDatiService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="61" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/system/service/Exam_test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/system/mapper/AdminMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/system/mapper/CourseMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/system/mapper/AdminMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-765" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/system/mapper/ExamDatiMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="70" column="9" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/system/mapper/DelallMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/system/mapper/CourseMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/teacher/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="149" column="92" selection-start-line="149" selection-start-column="92" selection-end-line="149" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/system/service/delallService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/system/service/impl/delallServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/system/service/impl/CourseServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/system/mapper/DelallMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/student/exam_exam.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/student/lianxi_exam.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-833">
+          <caret line="101" column="77" selection-start-line="101" selection-start-column="77" selection-end-line="101" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/student/lianxi_exam_a.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="195" column="62" selection-start-line="195" selection-start-column="62" selection-end-line="195" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/student/exam_exam_a.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="194" column="70" selection-start-line="194" selection-start-column="70" selection-end-line="194" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/showError.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sql/exam.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/system/controller/CourseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="55" column="40" selection-end-line="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/system/controller/examController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="32" column="34" selection-end-line="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/system/controller/examDatiController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-71">
+          <caret line="29" column="38" lean-forward="true" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/system/controller/TeacherController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="35" column="37" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/system/controller/tchCheckController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="28" column="50" lean-forward="true" selection-start-line="28" selection-start-column="50" selection-end-line="28" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/system/controller/StudentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="35" column="14" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/system/controller/scoreController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="71" column="34" selection-end-line="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/system/controller/regController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="30" column="41" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/system/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="48" column="27" selection-end-line="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/system/controller/LianxiTestaController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="56" column="30" selection-end-line="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/system/controller/examTestaController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="59" column="9" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/system/controller/lianxiController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="29" column="32" selection-end-line="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/system/controller/lianxiDatiController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="27" column="36" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>web_exam_zs:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.fasterxml:classmate:1.3.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

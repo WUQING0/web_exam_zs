@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.system.mapper.LianxiXuanzeMapper" >
+  <resultMap id="BaseResultMap" type="com.system.po.LianxiXuanze" >
+    <id column="lianxi_id" property="lianxiId" jdbcType="INTEGER" />
+    <result column="lianxi_name" property="lianxiName" jdbcType="VARCHAR" />
+    <result column="teacher_id" property="teacherId" jdbcType="INTEGER" />
+    <result column="teacher_name" property="teacherName" jdbcType="VARCHAR" />
+    <result column="answer_A" property="answerA" jdbcType="VARCHAR" />
+    <result column="answer_B" property="answerB" jdbcType="VARCHAR" />
+    <result column="answer_C" property="answerC" jdbcType="VARCHAR" />
+    <result column="answer_D" property="answerD" jdbcType="VARCHAR" />
+    <result column="answer" property="answer" jdbcType="VARCHAR" />
+    <result column="type" property="type" jdbcType="VARCHAR" />
+  </resultMap>
+  <sql id="Example_Where_Clause" >
+    <where >
+      <foreach collection="oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause" >
+    <where >
+      <foreach collection="example.oredCriteria" item="criteria" separator="or" >
+        <if test="criteria.valid" >
+          <trim prefix="(" suffix=")" prefixOverrides="and" >
+            <foreach collection="criteria.criteria" item="criterion" >
+              <choose >
+                <when test="criterion.noValue" >
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue" >
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue" >
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue" >
+                  and ${criterion.condition}
+                  <foreach collection="criterion.value" item="listItem" open="(" close=")" separator="," >
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List" >
+    lianxi_id,type, teacher_id, teacher_name, answer_A, answer_B, answer_C, answer_D,
+    answer, lianxi_name
+  </sql>
+  <select id="selectByExample" resultMap="BaseResultMap" parameterType="com.system.po.LianxiXuanzeExample" >
+    select
+    <if test="distinct" >
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from lianxi_xuanze
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null" >
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Integer" >
+    select 
+    <include refid="Base_Column_List" />
+    from lianxi_xuanze
+    where lianxi_id = #{lianxiId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
+    delete from lianxi_xuanze
+    where lianxi_id = #{lianxiId,jdbcType=INTEGER}
+  </delete>
+  <delete id="deleteByExample" parameterType="com.system.po.LianxiXuanzeExample" >
+    delete from lianxi_xuanze
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="com.system.po.LianxiXuanze" >
+    insert into lianxi_xuanze (lianxi_id, lianxi_name, teacher_id, 
+      teacher_name, answer_A, answer_B, 
+      answer_C, answer_D, answer, 
+      type)
+    values (#{lianxiId,jdbcType=INTEGER}, #{lianxiName,jdbcType=VARCHAR}, #{teacherId,jdbcType=INTEGER}, 
+      #{teacherName,jdbcType=VARCHAR}, #{answerA,jdbcType=VARCHAR}, #{answerB,jdbcType=VARCHAR}, 
+      #{answerC,jdbcType=VARCHAR}, #{answerD,jdbcType=VARCHAR}, #{answer,jdbcType=VARCHAR}, 
+      #{type,jdbcType=VARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.system.po.LianxiXuanze" >
+    insert into lianxi_xuanze
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="lianxiId != null" >
+        lianxi_id,
+      </if>
+      <if test="lianxiName != null" >
+        lianxi_name,
+      </if>
+      <if test="teacherId != null" >
+        teacher_id,
+      </if>
+      <if test="teacherName != null" >
+        teacher_name,
+      </if>
+      <if test="answerA != null" >
+        answer_A,
+      </if>
+      <if test="answerB != null" >
+        answer_B,
+      </if>
+      <if test="answerC != null" >
+        answer_C,
+      </if>
+      <if test="answerD != null" >
+        answer_D,
+      </if>
+      <if test="answer != null" >
+        answer,
+      </if>
+      <if test="type != null" >
+        type,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="lianxiId != null" >
+        #{lianxiId,jdbcType=INTEGER},
+      </if>
+      <if test="lianxiName != null" >
+        #{lianxiName,jdbcType=VARCHAR},
+      </if>
+      <if test="teacherId != null" >
+        #{teacherId,jdbcType=INTEGER},
+      </if>
+      <if test="teacherName != null" >
+        #{teacherName,jdbcType=VARCHAR},
+      </if>
+      <if test="answerA != null" >
+        #{answerA,jdbcType=VARCHAR},
+      </if>
+      <if test="answerB != null" >
+        #{answerB,jdbcType=VARCHAR},
+      </if>
+      <if test="answerC != null" >
+        #{answerC,jdbcType=VARCHAR},
+      </if>
+      <if test="answerD != null" >
+        #{answerD,jdbcType=VARCHAR},
+      </if>
+      <if test="answer != null" >
+        #{answer,jdbcType=VARCHAR},
+      </if>
+      <if test="type != null" >
+        #{type,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="com.system.po.LianxiXuanzeExample" resultType="java.lang.Integer" >
+    select count(*) from lianxi_xuanze
+    <if test="_parameter != null" >
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map" >
+    update lianxi_xuanze
+    <set >
+      <if test="record.lianxiId != null" >
+        lianxi_id = #{record.lianxiId,jdbcType=INTEGER},
+      </if>
+      <if test="record.lianxiName != null" >
+        lianxi_name = #{record.lianxiName,jdbcType=VARCHAR},
+      </if>
+      <if test="record.teacherId != null" >
+        teacher_id = #{record.teacherId,jdbcType=INTEGER},
+      </if>
+      <if test="record.teacherName != null" >
+        teacher_name = #{record.teacherName,jdbcType=VARCHAR},
+      </if>
+      <if test="record.answerA != null" >
+        answer_A = #{record.answerA,jdbcType=VARCHAR},
+      </if>
+      <if test="record.answerB != null" >
+        answer_B = #{record.answerB,jdbcType=VARCHAR},
+      </if>
+      <if test="record.answerC != null" >
+        answer_C = #{record.answerC,jdbcType=VARCHAR},
+      </if>
+      <if test="record.answerD != null" >
+        answer_D = #{record.answerD,jdbcType=VARCHAR},
+      </if>
+      <if test="record.answer != null" >
+        answer = #{record.answer,jdbcType=VARCHAR},
+      </if>
+      <if test="record.type != null" >
+        type = #{record.type,jdbcType=VARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map" >
+    update lianxi_xuanze
+    set lianxi_id = #{record.lianxiId,jdbcType=INTEGER},
+      lianxi_name = #{record.lianxiName,jdbcType=VARCHAR},
+      teacher_id = #{record.teacherId,jdbcType=INTEGER},
+      teacher_name = #{record.teacherName,jdbcType=VARCHAR},
+      answer_A = #{record.answerA,jdbcType=VARCHAR},
+      answer_B = #{record.answerB,jdbcType=VARCHAR},
+      answer_C = #{record.answerC,jdbcType=VARCHAR},
+      answer_D = #{record.answerD,jdbcType=VARCHAR},
+      answer = #{record.answer,jdbcType=VARCHAR},
+      type = #{record.type,jdbcType=VARCHAR}
+    <if test="_parameter != null" >
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="com.system.po.LianxiXuanze" >
+    update lianxi_xuanze
+    <set >
+      <if test="lianxiName != null" >
+        lianxi_name = #{lianxiName,jdbcType=VARCHAR},
+      </if>
+      <if test="teacherId != null" >
+        teacher_id = #{teacherId,jdbcType=INTEGER},
+      </if>
+      <if test="teacherName != null" >
+        teacher_name = #{teacherName,jdbcType=VARCHAR},
+      </if>
+      <if test="answerA != null" >
+        answer_A = #{answerA,jdbcType=VARCHAR},
+      </if>
+      <if test="answerB != null" >
+        answer_B = #{answerB,jdbcType=VARCHAR},
+      </if>
+      <if test="answerC != null" >
+        answer_C = #{answerC,jdbcType=VARCHAR},
+      </if>
+      <if test="answerD != null" >
+        answer_D = #{answerD,jdbcType=VARCHAR},
+      </if>
+      <if test="answer != null" >
+        answer = #{answer,jdbcType=VARCHAR},
+      </if>
+      <if test="type != null" >
+        type = #{type,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where lianxi_id = #{lianxiId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.system.po.LianxiXuanze" >
+    update lianxi_xuanze
+    set lianxi_name = #{lianxiName,jdbcType=VARCHAR},
+      teacher_id = #{teacherId,jdbcType=INTEGER},
+      teacher_name = #{teacherName,jdbcType=VARCHAR},
+      answer_A = #{answerA,jdbcType=VARCHAR},
+      answer_B = #{answerB,jdbcType=VARCHAR},
+      answer_C = #{answerC,jdbcType=VARCHAR},
+      answer_D = #{answerD,jdbcType=VARCHAR},
+      answer = #{answer,jdbcType=VARCHAR},
+      type = #{type,jdbcType=VARCHAR}
+    where lianxi_id = #{lianxiId,jdbcType=INTEGER}
+  </update>
+</mapper>
